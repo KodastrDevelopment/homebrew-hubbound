@@ -3,7 +3,7 @@ cask "hubbound" do
   name "hubbound"
   desc "Hubbound CLI, daemon, user agent, and privileged helper."
   homepage "https://hubbound.net"
-  version "0.1.38-dev.1"
+  version "0.1.39-dev.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -17,22 +17,22 @@ cask "hubbound" do
   on_macos do
     on_intel do
       url "https://github.com/KodastrDevelopment/hubbound-releases/releases/download/v#{version}/hubbound_darwin_amd64.tar.gz"
-      sha256 "aabbe359857557dce5553cdb854098ae43777d0ba59b9629d23186fb71640b6b"
+      sha256 "a811c5253f862a7207fc4bdbecaca8d122f9db98c687762b5246d0696dd7c35c"
     end
     on_arm do
       url "https://github.com/KodastrDevelopment/hubbound-releases/releases/download/v#{version}/hubbound_darwin_arm64.tar.gz"
-      sha256 "59dc2180bc1fc1a4fb412036a4cd80e680db5cd764234d8542722d3eff133846"
+      sha256 "7fd348547965c8cc643846beb047e6fa3341e2ddbcbb752cfed3abfc2a090358"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/KodastrDevelopment/hubbound-releases/releases/download/v#{version}/hubbound_linux_amd64.tar.gz"
-      sha256 "4ad86c88d9a67acdeb9edc789b189bab044bbdd386407cb1457568fa7ee2da1f"
+      sha256 "3f24ceb80c841c5616744b97226db23693ac8350cfdfc063d74c8887482b3bbc"
     end
     on_arm do
       url "https://github.com/KodastrDevelopment/hubbound-releases/releases/download/v#{version}/hubbound_linux_arm64.tar.gz"
-      sha256 "8be9335547d319d2d0b9ec5044d43aa2e1d700b74d82f5c4497f695b319b5aca"
+      sha256 "d945886e5ee5a8567c4ee437372e0705a5c0da7283fb889997df9fd11b58719a"
     end
   end
 
